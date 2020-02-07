@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "one one one"
+      "two three four"
+      "two three four"
+      "two three four"
+      "two three four"
+      "five five five";
+      grid-gap: 1px;
+  }
+.logo {   
+    grid-area: one;
+    /* grid-row: 1 / span 2;  */
+    width: 57px;
+    height: 57px;
+    margin-left: 70px;
+    margin-top: 7px;
+}
+h1 {
+    grid-column: two two two two ;
+    font-family: Arial, Helvetica, sans-serif;
+ color: black;
+ margin: initial;
+}
