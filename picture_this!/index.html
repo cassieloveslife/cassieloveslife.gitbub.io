@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<body lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Picture This!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="title">
+      <h1>Picture This!</h1>
+      <h4>My Really Cool Blog Post</h4>
+    </div>
+    <img src="images/museum.jpg" alt="placeholder">
+
+  </header>
+</body>
+<div class="img_container">
+  <picture>
+    <source srcset="img/museum-325_">
+      <img src="images/museum.jpg">
+      <img src="images/museum.jpg" media="(max-width:960px)">
+<source srcset="img/museum-960_x_540.jpg 540w,
+img/museum-1280_x_720.jpg 720w"> 
+
+
+  <img srcset="img/museum-325_">
+  <img src="images/museum.jpg" alt="museum">
+</picture>
+</div>
+</body>
+</html>
