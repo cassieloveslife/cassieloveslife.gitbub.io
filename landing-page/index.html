@@ -1,48 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Landing Page</title>
+<html lang="en">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div class="wrapper">
         <!--create the logo and text on the left side-->
-        <section id="left" class="left">
-          <img class="logo" src="images/logo.png" alt="logo">
+        <header>
+          <img src="images/logo.png">
+         <main>
+           <div>
           <h1>Want to be your own boss?</h1>
-        </section>
-        <!--create image on the middle-->
-        <section id="contact" class="contact">
-          <h2 class="section-title">Contact Me</h2>
-          <form action="/action_page.php">
-            First name:<br>
-            <input type="text" name="firstname" value="Mickey"><br>
-            Last name:<br>
-            <input type="text" name="lastname" value="Mouse"><br><br>
-            <input type="submit" value="Submit">
-          </form> 
-            <div class="contact-form-section">
-              <label class="contact-form-label">Name</label>
-              <input class="contact-form-input" type="text">
-            </div>
-            <div class="contact-form-section">
-              <label class="contact-form-label">Email</label>
-              <input class="contact-form-input" type="email">
-            </div>
-            <div class="contact-form-section">
-              <label class="contact-form-label">Message</label>
-              <textarea class="contact-form-input"></textarea>
-            </div>
-            <button type="submit">Send Message</button>
-          </form>
-        </section>
+          <p class="subtitle">Start today and make up to $30/hr driving your own vehicle with Dash. <span>Safe. Secure. Reliable.</span></p>
+           </p>
+           </div>
+           <!--create image on the middle-->
+           <div class="scooter">
+             <img src="images/bg-image/scooter.svg">
+           </div>
+        <form>
+          <h2 class="title">Apply Now</h2>
+          <fieldset>
+            <legend>Enter your info below <span>to get started</span></legend>
+          </header>
+          </div>
+        <!-- <label for="fname">First Name</label>-->
+        <input type="text" name="fname" id="fname"
+        placeholder="First name">
+        </div>
+        <div>
+          <!-- <label for="lname">Last Name</label>-->
+          <input type="text" name="lname" id="lname"
+          placeholder="Last Name">
+        </div>
+        </form>
+        </main>
+       
       <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>&copy; 2020</p>
+        <div class="footer">
+          <span>Connect with us:</span>
+          <li>
+              <img src='images/icons/instagram.svg' />
+          </a></li>
+      <li><a href="http://www.twitter.com">
+          <img src='images/icons/twitter.svg' />
+      </a></li>
+      <li>
+          <img src='images/icons/linkedin.svg' />
+      </a></li>
+      <li>
+        <img src='images/icons/facebook.svg' />
+    </a></li>
       </footer>
-    </body>
   </div>
+</body>
     </html>
