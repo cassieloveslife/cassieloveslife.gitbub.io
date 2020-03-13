@@ -4,7 +4,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 @charset "UTF-8";
 
 html, body, div, span, applet, object, iframe,
@@ -107,11 +106,6 @@ body{
     font-size: 1.5rem;
     font-weight: bold;
 }
-// application.scss
-$hamburger-padding-x: 20px;
-$hamburger-padding-y: 15px;
-$hamburger-types     : (collapse);
-@import "hamburgers";
 
 .navigation ul{
     padding: 0;
@@ -168,7 +162,7 @@ h2 {
         width: 100%;
         margin-bottom: 1rem;
     }
-    @charset "UTF-8";
+@charset "UTF-8";
 
 /*!
  * animate.css -https://daneden.github.io/animate.css/
@@ -176,6 +170,7 @@ h2 {
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
  *
  * Copyright (c) 2019 Daniel Eden */
+ /*  animation credit: https://daneden.github.io/animate.css/ */
  @keyframes heartBeat {
   0% {
     -webkit-transform: scale(1);
@@ -258,7 +253,7 @@ h2 {
     font-size: 0.75rem;
 }
 
-
+/* responsive */
 @media screen and (min-width: 35rem){
     body{
         font-size: 1rem;
